@@ -75,6 +75,9 @@ header {
 	position: sticky;
     top: 0;
     background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 nav{
 	display: flex;
@@ -102,7 +105,8 @@ a {
 
 .first-box{
 	display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0;
 }
 
 h1{
@@ -248,6 +252,9 @@ p{
     }
     .two-columns, .three-columns{
         width: 100%;
+    }
+    .logo{
+        padding-bottom: 20px;
     }
     
   }
