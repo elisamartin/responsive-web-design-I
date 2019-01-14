@@ -72,25 +72,21 @@ body {
 }
 
 header {
-	height: 70px;
 	position: sticky;
     top: 0;
     background-color: white;
 }
-
-
-
 nav{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
 }
 
 a {
   	padding: 20px;
-  	border-radius: 20px;
   	color: gray;
-	margin-bottom: 20px;
 	text-decoration: none;
 }	
 
@@ -243,7 +239,15 @@ p{
     }
   }
 @media (max-width: 500px) {
-    header{
-          background-color:lightgreen;
+    a{  
+        font-size: 150%;
+        width: 100%;
+        background-color: white;
+        border: 0.5px solid black;
+        text-align: center;
     }
+    .two-columns, .three-columns{
+        width: 100%;
+    }
+    
   }
